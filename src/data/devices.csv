@@ -1,0 +1,67 @@
+ga control,ga status,dpt,unit,type,description
+null,1/1/0,DPT14.076,m3,float32,escala IMPZ1 1.1.8
+null,2/1/0,DPT9.021,mA,float16,Corriente Breaker 1 1.1.10
+null,1/2/0,DPT14.076,m3,float32,escala IMPZ1 1.1.9
+null,2/2/0,DPT9.024,kW,float16,Total de potencia activa dispositivo 1 1.1.10
+null,1/3/0,DPT14.076,m3,float32,consumo IMPZ1 1.1.11
+null,2/3/0,DPT12.001,counter pulses,unsigned32,Factor de potencia dispositivo 1 1.1.10
+null,1/4/0,DPT14.076,m3,float32,consumo IMPZ1 1.1.14
+null,2/4/0,DPT13.013,kW/h,signed32,Contador de energia activa dispositivo 1 1.1.10
+null,1/5/0,DPT14.076,m3,float32,consumo IMPZ1 1.1.15
+null,1/1/1,DPT14.076,m3,float32,consumo IMPZ1 1.1.8
+null,2/1/1,DPT9.021,mA,float16,Corriente Breaker 2 1.1.10
+null,1/2/1,DPT14.076,m3,float32,consumo IMPZ1 1.1.9
+null,1/3/1,DPT14.076,m3,float32,escala IMPZ1 1.1.11
+null,2/3/1,DPT12.001,counter pulses,unsigned32,Factor de potencia dispositivo 2 1.1.10
+null,1/4/1,DPT14.076,m3,float32,escala IMPZ1 1.1.14
+null,2/4/1,DPT13.013,kW/h,signed32,Contador de energia activa dispositivo 2 1.1.10
+null,1/5/1,DPT14.076,m3,float32,escala IMPZ1 1.1.15
+null,2/1/2,DPT9.021,mA,float16,Corriente Breaker 3 1.1.10
+null,2/3/2,DPT12.001,counter pulses,unsigned32,Factor de potencia dispositivo 3 1.1.10
+null,2/4/2,DPT13.013,kW/h,signed32,Contador de energia activa dispositivo 3 1.1.10
+null,2/1/3,DPT9.021,mA,float16,Corriente Breaker 4 1.1.10
+null,2/3/3,DPT12.001,counter pulses,unsigned32,Factor de potencia dispositivo 4 1.1.10
+null,2/4/3,DPT13.013,kW/h,signed32,Contador de energia activa dispositivo 4 1.1.10
+null,2/1/4,DPT9.021,mA,float16,Corriente Breaker 5 1.1.10
+null,2/1/5,DPT9.021,mA,float16,Corriente Breaker 6 1.1.10
+null,2/1/6,DPT9.021,mA,float16,Corriente Breaker 7 1.1.10
+null,2/1/7,DPT9.021,mA,float16,Corriente Breaker 8 1.1.10
+null,2/1/8,DPT9.021,mA,float16,Corriente Breaker 9 1.1.10
+null,2/1/9,DPT9.021,mA,float16,Corriente Breaker 10 1.1.10
+null,2/1/10,DPT9.021,mA,float16,Corriente Breaker 11 1.1.10
+null,2/1/11,DPT9.021,mA,float16,Corriente Breaker 12 1.1.10
+null,0/0/1,DPT9.004,lux,float16,valor de brilo sensor de brillo 1.1.13
+null,0/0/2,DPT9.004,lux,float16,valor de brilo sensor de brillo 1.1.3
+null,0/0/3,DPT9.004,lux,float16,valor de brilo sensor de brillo 1.1.4
+null,0/1/0,DPT9.008,ppm,float16,C02 sensor calidad de aire 1.1.5
+null,0/1/1,DPT9.008,ppm,float16,C02 sensor calidad de aire 1.1.6
+null,0/1/2,DPT9.008,ppm,float16,C02 sensor calidad de aire 1.1.7
+null,0/2/0,DPT7.001,counter pulses,unsigned16,Ruido modulo de entradas analogicas 1.1.12
+null,0/2/1,DPT7.001,counter pulses,unsigned16,Flujo de aire modulo de entradas analogicas 1.1.12
+null,0/2/2,DPT7.001,counter pulses,unsigned16,Ozono modulo de entradas analogicas 1.1.12
+null,0/4/0,DPT9.001,�C,float16,tempertatura sensor calidad de aire 1.1.5
+null,0/4/1,DPT9.001,�C,float16,tempertatura sensor calidad de aire 1.1.6
+null,0/4/2,DPT9.001,�C,float16,tempertatura sensor calidad de aire 1.1.7
+null,0/5/0,DPT9.007,%,float16,humedad sensor calidad de aire 1.1.5
+null,0/5/1,DPT9.007,%,float16,humedad sensor calidad de aire 1.1.6
+null,0/5/2,DPT9.007,%,float16,humedad sensor calidad de aire 1.1.7
+null,1/0/0,DPT14.076,m3,float32,escala IMPZ1 1.1.2
+null,1/0/1,DPT14.076,m3,float32,consumo IMPZ1 1.1.2
+null,2/0/0,DPT9.020,mV,float16,Voltaje Breaker 1  1.1.10
+null,2/0/1,DPT9.020,mV,float16,Voltaje Breaker 2 1.1.10
+null,2/0/10,DPT9.020,mV,float16,Voltaje Breaker 11 1.1.10
+null,2/0/11,DPT9.021,mV,float16,Voltaje Breaker 12 1.1.10
+null,2/0/2,DPT9.021,mV,float16,Voltaje Breaker 3 1.1.10
+null,2/0/3,DPT9.020,mV,float16,Voltaje Breaker 4 1.1.10
+null,2/0/4,DPT9.020,mV,float16,Voltaje Breaker 5 1.1.10
+null,2/0/5,DPT9.021,mV,float16,Voltaje Breaker 6 1.1.10
+null,2/0/6,DPT9.020,mV,float16,Voltaje Breaker 7 1.1.10
+null,2/0/7,DPT9.020,mV,float16,Voltaje Breaker 8 1.1.10
+null,2/0/8,DPT9.021,mV,float16,Voltaje Breaker 9 1.1.10
+null,2/0/9,DPT9.020,mV,float16,Voltaje Breaker 10 1.1.10
+1/0/2,null,DPT7.001,counter pulses,unsigned16,reset IMPZ1 1.1.2
+1/1/2,null,DPT7.001,counter pulses,unsigned16,reset IMPZ1 1.1.8
+1/2/2,null,DPT7.001,counter pulses,unsigned16,reset IMPZ1 1.1.9
+1/3/2,null,DPT7.001,counter pulses,unsigned16,reset IMPZ1 1.1.11
+1/4/2,null,DPT7.001,counter pulses,unsigned16,reset IMPZ1 1.1.14
+1/5/2,null,DPT7.001,counter pulses,unsigned16,reset IMPZ1 1.1.15
