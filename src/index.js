@@ -5,9 +5,29 @@ import cors from 'cors';
 
 import * as test from './logic/dataManagement'
 
+var testData= [{
+  ga : '0/0/1',
+  dpt : 'DPT9.001',
+  unit : 'C',
+  value : '24',
+  date : test.getCurrentDateString()
+},{
+  ga : '0/0/1',
+  dpt : 'DPT9.001',
+  unit : 'C',
+  value : '25',
+  date : test.getCurrentDateString()
+},{
+  ga : '0/0/1',
+  dpt : 'DPT9.001',
+  unit : 'C',
+  value : '26',
+  date : test.getCurrentDateString()
+}]
+console.log(testData);
 var result = test.getKNXDevices(); 
-console.log(result); 
-
+//test.generateKey();
+testData.map((item)=>{test.fetchSaveInfoAPI(item)});
 var express = require('express'),
   app = express(),
   port = process.env.PORT || 3001;
@@ -16,8 +36,6 @@ var express = require('express'),
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-
-
 
 
 app.get('/', (req, res) => {
